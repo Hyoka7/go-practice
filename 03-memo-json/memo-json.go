@@ -109,6 +109,6 @@ Loop:
 	}
 	err = memos.save()
 	if err != nil {
-		fmt.Println(err)
+		log.Fatal(err)
 	}
 }
